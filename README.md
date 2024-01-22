@@ -1,4 +1,4 @@
-# 44643Sec02Team01SpringProjectFinal2024
+# 44643Sec02Team01Spring2024FinalProject
 An efficient “ride-sharing” iOS application where users can publish or find rides for their desired routes. 
 
 ### Project Details:
