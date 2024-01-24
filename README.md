@@ -26,3 +26,13 @@ The app allows users to post ride availability in advance, specifying the number
 3.	Conduct testing, debugging, and troubleshooting to ensure the application's functionality and performance.
 4.	Optimize code for efficiency and scalability, considering both frontend and backend aspects.
 
+#### 3.	Prameela Pathuri
+
+   **Role:** Full stack developer (Responsible for both frontend and backend development)
+   
+**Responsibilities:**
+1.	Develop frontend components for ***profile and navigation of screens*** feature on the iOS application.
+2.	Implement backend logic, databases, and APIs to support the functionality of the app.
+3.	Conduct testing, debugging, and troubleshooting to ensure the application's functionality and performance.
+4.	Optimize code for efficiency and scalability, considering both frontend and backend aspects.
+
