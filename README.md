@@ -1,5 +1,5 @@
 # 44643Sec02Team01Spring2024FinalProject
-An engaging and interactive iOS application called "LearnQuest," specifically designed for kids to enhance their learning experience.
+An engaging and interactive iOS application called "***LearnQuest***", specifically designed for kids to enhance their learning experience.
 
 ### Project Details:
 LearnQuest will encompass modules for subjects like Math, Science, Social Studies, and incorporate educational games to make the learning process enjoyable. The LearnQuest app will assign stars to users based on their performance in module-specific tests.
