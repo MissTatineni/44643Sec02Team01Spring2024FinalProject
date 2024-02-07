@@ -1,8 +1,8 @@
 # 44643Sec02Team01Spring2024FinalProject
-An efficient “ride-sharing” iOS application where users can publish or find rides for their desired routes. 
+An engaging and interactive iOS application called "LearnQuest," specifically designed for kids to enhance their learning experience.
 
 ### Project Details:
-The app allows users to post ride availability in advance, specifying the number of available seats from a source to a destination. Additionally, individuals searching for rides on a specific route can view and connect with the available rides. Users can also filter ride availability based on the pricing.
+LearnQuest will encompass modules for subjects like Math, Science, Social Studies, and incorporate educational games to make the learning process enjoyable. The LearnQuest app will assign stars to users based on their performance in module-specific tests.
 
 --- 
 ### Team Details:
@@ -11,7 +11,7 @@ The app allows users to post ride availability in advance, specifying the number
    **Role:** Full stack developer (Responsible for both frontend and backend development)
    
 **Responsibilities:**
-1.	Develop frontend components for ***ride posting*** feature on the iOS application.
+1.	Develop frontend components for ***Math, Science modules*** on the iOS application.
 2.	Implement backend logic, databases, and APIs to support the functionality of the app.
 3.	Conduct testing, debugging, and troubleshooting to ensure the application's functionality and performance.
 4.	Optimize code for efficiency and scalability, considering both frontend and backend aspects.
@@ -21,7 +21,7 @@ The app allows users to post ride availability in advance, specifying the number
    **Role:** Full stack developer (Responsible for both frontend and backend development)
    
 **Responsibilities:**
-1.	Develop frontend components for ***ride searching*** feature on the iOS application.
+1.	Develop frontend components for ***Social,Game Zone modules*** on the iOS application.
 2.	Implement backend logic, databases, and APIs to support the functionality of the app.
 3.	Conduct testing, debugging, and troubleshooting to ensure the application's functionality and performance.
 4.	Optimize code for efficiency and scalability, considering both frontend and backend aspects.
@@ -31,7 +31,7 @@ The app allows users to post ride availability in advance, specifying the number
    **Role:** Full stack developer (Responsible for both frontend and backend development)
    
 **Responsibilities:**
-1.	Develop frontend components for ***profile and navigation of screens*** feature on the iOS application.
+1.	Develop frontend components for ***profile and Home modules***on the iOS application.
 2.	Implement backend logic, databases, and APIs to support the functionality of the app.
 3.	Conduct testing, debugging, and troubleshooting to ensure the application's functionality and performance.
 4.	Optimize code for efficiency and scalability, considering both frontend and backend aspects.
