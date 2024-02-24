@@ -8,8 +8,14 @@
 import UIKit
 import Lottie
 import AnimatedGradientView
+import AVFoundation
 
 class ViewController: UIViewController {
+    //Bhargavi Tatineni Start
+    @IBOutlet weak var myButton: UIButton!
+    let systemSoundID: SystemSoundID = 1111
+    //Bhargavi Tatineni End
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +24,16 @@ class ViewController: UIViewController {
     override func viewIsAppearing(_ animated: Bool) {
         self.applyGradientBackground()
     }
+    
+    //Bhargavi Tatineni Start
+    func playSystemSound(soundID: SystemSoundID) {
+    AudioServicesPlaySystemSound(soundID)
+    }
+    @IBAction func buttonClicked(_ sender: UIButton) {
+    playSystemSound(soundID: systemSoundID)
+     }
+    //Bhargavi Tatineni End
+    
 
 //    @IBOutlet weak var LaunchLAV: LottieAnimationView!{
 //        didSet{
