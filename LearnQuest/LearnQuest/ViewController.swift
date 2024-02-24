@@ -9,6 +9,7 @@ import UIKit
 import Lottie
 import AnimatedGradientView
 import AVFoundation
+import SpriteKit
 
 class ViewController: UIViewController {
     //Bhargavi Tatineni Start
@@ -20,6 +21,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let skView = SKView(frame: self.view.frame)
+        self.view.addSubview(skView)
     }
     override func viewIsAppearing(_ animated: Bool) {
         self.applyGradientBackground()
@@ -32,6 +35,11 @@ class ViewController: UIViewController {
     @IBAction func buttonClicked(_ sender: UIButton) {
     playSystemSound(soundID: systemSoundID)
      }
+    
+   
+
+    
+    
     //Bhargavi Tatineni End
     
 
@@ -60,6 +68,12 @@ class ViewController: UIViewController {
         ]
         self.view.insertSubview(gradient, at: 0)
                                  
+    }
+    
+    func navigateToPage(pageName: String) {
+        if let pageVC = storyboard?.instantiateViewController(withIdentifier: pageName) {
+            present(pageVC, animated: true, completion: nil)
+        }
     }
     
 }
