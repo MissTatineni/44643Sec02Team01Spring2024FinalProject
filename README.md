@@ -36,3 +36,8 @@ LearnQuest will encompass modules for subjects like Math, Science, Social Studie
 3.	Conduct testing, debugging, and troubleshooting to ensure the application's functionality and performance.
 4.	Optimize code for efficiency and scalability, considering both frontend and backend aspects.
 
+
+**Technologies to be used**
+ - Xcode ( IDE)
+ - Swift (Programming Language)
+ - Scenekit/Spritekit (Apple frameworks for designing)
