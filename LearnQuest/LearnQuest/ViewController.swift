@@ -49,11 +49,14 @@ class ViewController: UIViewController {
               let password = passwordField.text, !password.isEmpty else {
             return
         }
+    }
         
         
         
         
         //Bhargavi Tatineni End
+        
+       
         
         
         @IBOutlet weak var LaunchLAV: LottieAnimationView!{
@@ -91,4 +94,4 @@ class ViewController: UIViewController {
         
     }
     
-}
+
