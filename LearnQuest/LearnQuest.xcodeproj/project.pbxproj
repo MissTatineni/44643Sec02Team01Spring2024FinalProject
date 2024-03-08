@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3446566F2B9AA81C00CE53B4 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3446566E2B9AA81C00CE53B4 /* MyScene.sks */; };
 		3457DA252B86A20100922545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457DA242B86A20100922545 /* AppDelegate.swift */; };
 		3457DA272B86A20100922545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457DA262B86A20100922545 /* SceneDelegate.swift */; };
 		3457DA292B86A20100922545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457DA282B86A20100922545 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3446566E2B9AA81C00CE53B4 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		3457DA212B86A20100922545 /* LearnQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3457DA242B86A20100922545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3457DA262B86A20100922545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				3457DA262B86A20100922545 /* SceneDelegate.swift */,
 				3457DA282B86A20100922545 /* ViewController.swift */,
 				3457DA2A2B86A20100922545 /* Main.storyboard */,
+				3446566E2B9AA81C00CE53B4 /* MyScene.sks */,
 				3457DA2D2B86A20500922545 /* Assets.xcassets */,
 				3457DA2F2B86A20500922545 /* LaunchScreen.storyboard */,
 				3457DA322B86A20500922545 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				3457DA312B86A20500922545 /* LaunchScreen.storyboard in Resources */,
 				3457DA2E2B86A20500922545 /* Assets.xcassets in Resources */,
+				3446566F2B9AA81C00CE53B4 /* MyScene.sks in Resources */,
 				3457DA2C2B86A20100922545 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
