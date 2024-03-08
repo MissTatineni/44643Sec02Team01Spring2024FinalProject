@@ -18,6 +18,9 @@
 		3457DA3D2B86A3F900922545 /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 3457DA3C2B86A3F900922545 /* AnimatedGradientView */; };
 		A1EE09252B9BC013007D7763 /* mainLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE09242B9BC013007D7763 /* mainLoginViewController.swift */; };
 		A1EE09272B9BC09C007D7763 /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE09262B9BC09C007D7763 /* Homescreen.swift */; };
+		A1EE09292B9BC37D007D7763 /* MathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE09282B9BC37D007D7763 /* MathVC.swift */; };
+		A1EE092B2B9BC4F9007D7763 /* DisplayScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE092A2B9BC4F9007D7763 /* DisplayScore.swift */; };
+		A1EE092D2B9BC566007D7763 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE092C2B9BC566007D7763 /* SignupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		3457DA322B86A20500922545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1EE09242B9BC013007D7763 /* mainLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainLoginViewController.swift; sourceTree = "<group>"; };
 		A1EE09262B9BC09C007D7763 /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
+		A1EE09282B9BC37D007D7763 /* MathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathVC.swift; sourceTree = "<group>"; };
+		A1EE092A2B9BC4F9007D7763 /* DisplayScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayScore.swift; sourceTree = "<group>"; };
+		A1EE092C2B9BC566007D7763 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				3457DA262B86A20100922545 /* SceneDelegate.swift */,
 				3457DA282B86A20100922545 /* ViewController.swift */,
 				3457DA2A2B86A20100922545 /* Main.storyboard */,
+				A1EE092C2B9BC566007D7763 /* SignupVC.swift */,
+				A1EE092A2B9BC4F9007D7763 /* DisplayScore.swift */,
+				A1EE09282B9BC37D007D7763 /* MathVC.swift */,
 				A1EE09262B9BC09C007D7763 /* Homescreen.swift */,
 				A1EE09242B9BC013007D7763 /* mainLoginViewController.swift */,
 				3446566E2B9AA81C00CE53B4 /* MyScene.sks */,
@@ -160,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EE092D2B9BC566007D7763 /* SignupVC.swift in Sources */,
 				3457DA292B86A20100922545 /* ViewController.swift in Sources */,
 				A1EE09252B9BC013007D7763 /* mainLoginViewController.swift in Sources */,
+				A1EE09292B9BC37D007D7763 /* MathVC.swift in Sources */,
 				3457DA252B86A20100922545 /* AppDelegate.swift in Sources */,
 				3457DA272B86A20100922545 /* SceneDelegate.swift in Sources */,
+				A1EE092B2B9BC4F9007D7763 /* DisplayScore.swift in Sources */,
 				A1EE09272B9BC09C007D7763 /* Homescreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Homescreen-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="Homescreen" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="433" y="-3"/>
         </scene>
-        <!--View Controller-->
+        <!--Display Score-->
         <scene sceneID="jb1-sr-e0P">
             <objects>
-                <viewController id="qfX-0d-rAC" sceneMemberID="viewController">
+                <viewController id="qfX-0d-rAC" customClass="DisplayScore" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fmL-sH-lxd">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,6 +193,9 @@
                                                 <rect key="frame" x="0.0" y="270.66666666666669" width="430" height="122.33333333333331"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Change Avatar"/>
+                                                <connections>
+                                                    <action selector="AvatarChange:" destination="lIe-D5-Sck" eventType="touchUpInside" id="aT4-Nw-cvw"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -296,13 +299,14 @@
                     <navigationItem key="navigationItem" id="Ksz-ni-Dit"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1G-uw-6Ig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="lIe-D5-Sck" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="383.72093023255815" y="696.56652360515022"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Login View Controller-->
         <scene sceneID="fHC-dA-V0l">
             <objects>
-                <viewController id="wg2-GG-zig" sceneMemberID="viewController">
+                <viewController id="wg2-GG-zig" customClass="mainLoginViewController" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gFx-q1-xut">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -370,7 +374,7 @@
         <!--Math VC-->
         <scene sceneID="Twr-o3-915">
             <objects>
-                <viewController id="oln-JF-HOs" userLabel="Math VC" customClass="ViewController" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oln-JF-HOs" userLabel="Math VC" customClass="MathVC" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="bjf-G4-xf4">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,7 +448,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pRY-xv-q5J">
-                                <rect key="frame" x="26" y="323" width="380" height="553.33333333333326"/>
+                                <rect key="frame" x="26" y="323" width="380" height="553.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="L7D-jE-IsG" userLabel="level1SV">
                                         <rect key="frame" x="1.6666666666666572" y="0.0" width="376.66666666666674" height="181.66666666666666"/>
@@ -459,6 +463,9 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Level01:" destination="sBq-FC-ODD" eventType="touchUpInside" id="uOs-wl-mQ9"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -475,6 +482,9 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                     <color key="baseBackgroundColor" red="0.21530478285827687" green="0.83896529966941036" blue="0.3712199120610602" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Level02:" destination="sBq-FC-ODD" eventType="touchUpInside" id="BO9-mB-7TD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -491,6 +501,9 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                     <color key="baseBackgroundColor" red="0.21530478289999999" green="0.8389652997" blue="0.37121991209999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="Level03:" destination="sBq-FC-ODD" eventType="touchUpInside" id="aI7-vQ-F2G"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -509,13 +522,14 @@
                     <navigationItem key="navigationItem" id="dte-LR-plo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2x-52-S3Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="sBq-FC-ODD" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1367" y="-3"/>
         </scene>
         <!--Login VC -->
         <scene sceneID="qEU-fO-U6c">
             <objects>
-                <viewController id="32t-pz-wQU" userLabel="Login VC " customClass="ViewController" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="32t-pz-wQU" userLabel="Login VC " customClass="SignupVC" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dv1-oB-LOJ">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -542,6 +556,9 @@
                                                 <rect key="frame" x="0.0" y="83.666666666666686" width="387" height="75.666666666666686"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="Username"/>
+                                                <connections>
+                                                    <action selector="usrname:" destination="HNZ-FM-xgk" eventType="touchUpInside" id="Lsx-pw-jA5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -558,6 +575,9 @@
                                                 <rect key="frame" x="0.0" y="84" width="387" height="75.666666666666686"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="Password"/>
+                                                <connections>
+                                                    <action selector="pwd:" destination="HNZ-FM-xgk" eventType="touchUpInside" id="DBO-0s-eAF"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -568,6 +588,9 @@
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                             <color key="baseBackgroundColor" red="0.21530478289999999" green="0.8389652997" blue="0.37121991209999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="signup:" destination="HNZ-FM-xgk" eventType="touchUpInside" id="8X6-NP-4lt"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xue-mb-cOv">
                                         <rect key="frame" x="0.0" y="670.33333333333337" width="387" height="159.33333333333337"/>
@@ -602,6 +625,7 @@
                     <navigationItem key="navigationItem" id="kAe-Fx-pL6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYs-0T-zDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="HNZ-FM-xgk" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2285.5813953488373" y="-3.218884120171674"/>
         </scene>
