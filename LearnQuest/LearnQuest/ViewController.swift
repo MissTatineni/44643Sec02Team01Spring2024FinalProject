@@ -94,6 +94,17 @@ class ViewController: UIViewController {
                 present(pageVC, animated: true, completion: nil)
             }
         }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let location = touch.location(in: self)
+            let tileCoord = self.tilemap.tileColumnIndex(fromPosition: location)
+            let tileRow = self.tilemap.tileRowIndex(fromPosition: location)
+            if let tileNode = self.tilemap.tileAt(tileCoord, tileRow) {
+                tileNode.zRotation += CGFloat.pi / 2
+            }
+        }
+    }
         
     }
     
