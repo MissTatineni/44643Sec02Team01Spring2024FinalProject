@@ -331,7 +331,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b41-pC-LPi">
                                         <rect key="frame" x="0.0" y="456" width="330" height="83"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Login"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -345,6 +345,9 @@
                             <constraint firstItem="U7c-0C-1Ga" firstAttribute="trailing" secondItem="FoF-vn-wah" secondAttribute="trailing" constant="50" id="zoP-iO-ury"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="32t-pz-wQU" kind="show" id="CFH-GT-tAc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uIJ-LB-8Xg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -427,7 +430,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="pRY-xv-q5J">
-                                <rect key="frame" x="26" y="323" width="380" height="553.33333333333337"/>
+                                <rect key="frame" x="26" y="323.00000000000006" width="380" height="553.33333333333348"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="L7D-jE-IsG" userLabel="level1SV">
                                         <rect key="frame" x="1.6666666666666572" y="0.0" width="376.66666666666674" height="181.66666666666666"/>
@@ -500,52 +503,52 @@
             <objects>
                 <viewController id="32t-pz-wQU" userLabel="Login VC " customClass="ViewController" customModule="LearnQuest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dv1-oB-LOJ">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hB5-cV-HuU" userLabel="Big Container SV">
-                                <rect key="frame" x="20" y="79" width="387" height="755"/>
+                                <rect key="frame" x="20" y="79" width="387" height="829.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get you an account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6d-za-aqx">
-                                        <rect key="frame" x="0.0" y="0.0" width="387" height="144.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="387" height="159.66666666666666"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="bHu-7P-RZG" userLabel="UsernameSV">
-                                        <rect key="frame" x="0.0" y="152.66666666666669" width="387" height="144.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="167.66666666666663" width="387" height="159.33333333333337"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick your username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTX-bq-iCA">
-                                                <rect key="frame" x="0.0" y="0.0" width="387" height="68.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="387" height="75.666666666666671"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-tt-4fc">
-                                                <rect key="frame" x="0.0" y="76.333333333333343" width="387" height="68.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="83.666666666666686" width="387" height="75.666666666666686"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="Username"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7vj-vP-irw" userLabel="Password SV">
-                                        <rect key="frame" x="0.0" y="305.33333333333331" width="387" height="144.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="335" width="387" height="159.66666666666663"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GY5-s4-nvT">
-                                                <rect key="frame" x="0.0" y="0.0" width="387" height="68.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="387" height="76"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taG-bi-jcw">
-                                                <rect key="frame" x="0.0" y="76.333333333333371" width="387" height="68.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="84" width="387" height="75.666666666666686"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="gray" title="Password"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6h-KI-yCw">
-                                        <rect key="frame" x="0.0" y="457.99999999999994" width="387" height="144.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="502.66666666666669" width="387" height="159.66666666666669"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Sign up">
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
@@ -553,13 +556,13 @@
                                         </buttonConfiguration>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xue-mb-cOv">
-                                        <rect key="frame" x="0.0" y="610.33333333333337" width="387" height="144.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="670.33333333333337" width="387" height="159.33333333333337"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Avatars" translatesAutoresizingMaskIntoConstraints="NO" id="XF3-RA-O2F">
-                                                <rect key="frame" x="0.0" y="0.0" width="387" height="102.33333333333333"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="387" height="117"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F8q-N0-ZQk">
-                                                <rect key="frame" x="0.0" y="110.33333333333326" width="387" height="34.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="124.99999999999999" width="387" height="34.333333333333329"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Choose your Avatar">
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
