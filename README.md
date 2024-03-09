@@ -41,3 +41,24 @@ LearnQuest will encompass modules for subjects like Math, Science, Social Studie
  - Xcode ( IDE)
  - Swift (Programming Language)
  - Scenekit/Spritekit (Apple frameworks for designing)
+
+
+### Features:
+- Science: Dive into the fascinating world of science with interactive lessons, quizzes, and experiments.
+- Social Studies: Explore history, geography, and culture through engaging content and activities.
+- Mathematics: Sharpen your math skills with comprehensive lessons, exercises, and problem-solving techniques.
+- Games Zone: Take a break from studying and enjoy a variety of educational games designed to challenge and entertain you.
+
+
+### Getting Started
+*****To get started with the Student Learning App, follow these steps:
+
+1. Download the App: Visit the App Store and download the Student Learning App.
+2. Sign Up or Log In: Create a new account or log in with your existing credentials.
+3. Explore Content: Browse through the science, social studies, and math sections to discover lessons and quizzes tailored to your needs.
+4. Play Games: Head to the Games Zone to have fun while learning.
+5. Track Progress: Monitor your progress and performance in each subject area to see how you're improving over time.
+
+### Requirements
+- Compatible with iOS devices running iOS 12.0 and later.
+- Requires an internet connection for accessing content and syncing progress.
