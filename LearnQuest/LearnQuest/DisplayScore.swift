@@ -9,15 +9,15 @@ import UIKit
 
 class DisplayScore: UIViewController {
 
-    @IBAction func AvatarChange(_ sender: UIButton) {
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func ChangeAvator(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 
