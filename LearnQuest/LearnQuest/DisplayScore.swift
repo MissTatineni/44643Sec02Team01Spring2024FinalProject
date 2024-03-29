@@ -14,6 +14,11 @@ class DisplayScore: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func createNewAccount(_ sender: UIButton) {
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier: "profilePageToSignUp", sender: nil)
+        }
+    }
     
     @IBAction func ChangeAvator(_ sender: UIButton) {
     }

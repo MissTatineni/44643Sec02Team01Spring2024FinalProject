@@ -16,6 +16,9 @@ class SignupVC: UIViewController {
                 passwordMsgLBL.text="Password cannot empty"
                 return
             }
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "SignupToHomepage", sender: nil)
+            }
 
     }
     
