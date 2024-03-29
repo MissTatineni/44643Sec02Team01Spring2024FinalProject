@@ -23,6 +23,32 @@ class Homescreen: UIViewController {
     }
     @IBAction func continueBTN(_ sender: Any) {
     }
+    
+    let animalFacts = [
+    "Lion": "Lions are the second-largest cats in the world, after tigers.",
+    "Elephant": "Elephants are the largest land animals on Earth.",
+    "Dolphin": "Dolphins are highly intelligent and social animals that live in groups called pods.",
+    "Penguin": "Penguins are flightless birds that live in the Southern Hemisphere.",
+    "Kangaroo": "Kangaroos are large marsupials that are native to Australia."
+    ]
+
+     @IBAction func showRandomAnimalFact(_ sender: UIButton) {
+       // Call the method to show a random animal fact
+      showRandomAnimalFact()
+    }
+
+     // Add a method to select a random animal and display its fact
+     func showRandomAnimalFact() {
+       // Select a random animal key
+     let animalKeys = Array(animalFacts.keys)
+     let randomIndex = Int.random(in: 0..<animalKeys.count)
+    let randomAnimal = animalKeys[randomIndex]
+      // Display the animal fact
+     let animalFact = animalFacts[randomAnimal]!
+     let alertController = UIAlertController(title: "Did you know?", message: animalFact, preferredStyle: .alert)
+     alertController.addAction(UIAlertAction(title: "OK", style: .default))
+     present(alertController, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
