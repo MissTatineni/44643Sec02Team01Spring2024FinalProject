@@ -9,7 +9,15 @@ import UIKit
 
 class Homescreen: UIViewController {
 
+    var score=0;
+    
     @IBAction func scoreBTN(_ sender: UIButton) {
+        
+        score += 1
+       // Display an alert with the updated score
+        let alertController = UIAlertController(title: "Score", message: "Your score is now \(score)", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: .default))
+        present(alertController, animated: true)
     }
     @IBAction func H20BTN(_ sender: UIButton) {
     }
