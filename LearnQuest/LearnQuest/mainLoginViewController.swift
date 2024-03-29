@@ -11,10 +11,19 @@ class mainLoginViewController: UIViewController {
     
     @IBAction func login(_ sender: UIButton) {
     }
+    @IBOutlet weak var Username: UILabel!
+    
+    @IBAction func PasswordTF(_ sender: UITextField) {
+    }
+    @IBOutlet weak var Password: UILabel!
+    @IBAction func UsernameTF(_ sender: UITextField) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
     
 
