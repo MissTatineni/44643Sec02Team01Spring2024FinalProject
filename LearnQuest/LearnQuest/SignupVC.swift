@@ -9,12 +9,41 @@ import UIKit
 
 class SignupVC: UIViewController {
 
-    @IBAction func usrname(_ sender: UIButton) {
+        @IBAction func signup(_ sender: UIButton) {
+            guard let username = UsernameTF.text, !username.isEmpty,
+                  let password = PasswordTF.text, !password.isEmpty else {
+                usernameMsgLBL.text="Username cannot be empty"
+                passwordMsgLBL.text="Password cannot empty"
+                return
+            }
+
     }
-    @IBAction func signup(_ sender: UIButton) {
+    
+    @IBOutlet weak var UsernameTF: UITextField!
+    
+    
+    @IBOutlet weak var PasswordTF: UITextField!
+    
+    
+    @IBAction func usernameTF(_ sender: UITextField) {
+        if(UsernameTF.text==""){
+            usernameMsgLBL.text="Username cannot be empty"
+        }
+        
     }
-    @IBAction func pwd(_ sender: UIButton) {
+    
+    @IBAction func passwordTF(_ sender: UITextField) {
+        if(PasswordTF.text==""){
+            passwordMsgLBL.text="Password cannot empty"
+            return
+        }
     }
+    
+    @IBOutlet weak var usernameMsgLBL: UILabel!
+    
+    @IBOutlet weak var passwordMsgLBL: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
