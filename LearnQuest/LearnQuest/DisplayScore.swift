@@ -24,6 +24,18 @@ class DisplayScore: UIViewController {
     @IBAction func ChangeAvator(_ sender: UIButton) {
     }
     
+    @IBOutlet weak var Username: UILabel!
+    
+    @IBOutlet weak var MailId: UILabel!
+    
+    @IBOutlet weak var Reward: UILabel!
+    
+    
+    @IBOutlet weak var MathLabel: UILabel!
+    
+    @IBOutlet weak var ScienceLabel: UILabel!
+    
+    
     
     private func applyGradientBackground(){
         let gradientType: CAGradientLayerType = .axial
