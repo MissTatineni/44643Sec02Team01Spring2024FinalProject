@@ -58,7 +58,13 @@ LearnQuest will encompass modules for subjects like Math, Science, Social Studie
 3. Explore Content: Browse through the science, social studies, and math sections to discover lessons and quizzes tailored to your needs.
 4. Play Games: Head to the Games Zone to have fun while learning.
 5. Track Progress: Monitor your progress and performance in each subject area to see how you're improving over time.
+6. Game zone: It appears to be an area where students can play various educational games as a fun way to review classroom material.
 
 ### Requirements
 - Compatible with iOS devices running iOS 12.0 and later.
 - Requires an internet connection for accessing content and syncing progress.
+  
+### Advantages
+- Personalized learning experience.
+- Comprehensive course offerings.
+- Access to learning resources.
