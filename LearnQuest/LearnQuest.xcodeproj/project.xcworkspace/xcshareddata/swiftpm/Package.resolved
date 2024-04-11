@@ -1,5 +1,5 @@
 {
-  "originHash" : "9a8f94d2f9f9fe1427cbf4e534c1cc5b904f0c44cf86341e3ce203023f36a570",
+  "originHash" : "d7c880cbff1a7278b5ca09824d781584c75cd434b71e513d3c6b2c83e6924a4b",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -8,15 +8,6 @@
       "state" : {
         "revision" : "7ce7be095bc3ed3c98b009532fe2d7698c132614",
         "version" : "1.2024011601.0"
-      }
-    },
-    {
-      "identity" : "animatedgradientview",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rwbutler/AnimatedGradientView.git",
-      "state" : {
-        "revision" : "c82c3c0e311a7164f0bee4bd52ca525c5b6da4f6",
-        "version" : "3.1.1"
       }
     },
     {
@@ -101,15 +92,6 @@
       }
     },
     {
-      "identity" : "lottie-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/airbnb/lottie-ios.git",
-      "state" : {
-        "revision" : "7fe8b6f697ae7db4bf0df270119592cb5d502848",
-        "version" : "4.4.1"
-      }
-    },
-    {
       "identity" : "nanopb",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/nanopb.git",
@@ -125,6 +107,15 @@
       "state" : {
         "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
         "version" : "2.4.0"
+      }
+    },
+    {
+      "identity" : "svprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SVProgressHUD/SVProgressHUD.git",
+      "state" : {
+        "revision" : "c33f7c775ba7feea6047a1fc3257f2e5863b44f7",
+        "version" : "2.3.1"
       }
     },
     {

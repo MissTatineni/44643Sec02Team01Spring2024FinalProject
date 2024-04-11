@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  LearnQuest
 //
-//  Created by Thirupathi Eluvaka on 2/21/24.
+//  Created by Pathuri Prameela on 01/03/2024.
 //
 
 import UIKit
