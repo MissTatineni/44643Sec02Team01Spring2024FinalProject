@@ -31,6 +31,15 @@ final class AuthenticationManager {
     }
     
     
+    
+    
+    
+    
+    
+    func signOut() throws{
+        try Auth.auth().signOut()
+    }
+    
     func signIn(email: String, password: String, completion: @escaping (Error?, Bool) -> ()) {
         Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
             
@@ -42,10 +51,6 @@ final class AuthenticationManager {
                 completion(nil, true)
             }
         }
-    }
-    
-    func signOut() throws{
-        try Auth.auth().signOut()
     }
     
     func resetPassword(email :String, completion: @escaping (Error?, Bool) -> ()){
