@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		444F698A2BC9020A00DD2CFB /* GameZoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444F69892BC9020A00DD2CFB /* GameZoneVC.swift */; };
 		7402ADB92BC7CBCC0005829E /* LevelCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402ADB82BC7CBCC0005829E /* LevelCVC.swift */; };
 		740648342BC67B6300A39940 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 740648332BC67B6300A39940 /* GoogleService-Info.plist */; };
 		742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742999FD2B860F3300C22B9C /* AppDelegate.swift */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		444F69892BC9020A00DD2CFB /* GameZoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameZoneVC.swift; sourceTree = "<group>"; };
 		7402ADB82BC7CBCC0005829E /* LevelCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCVC.swift; sourceTree = "<group>"; };
 		740648332BC67B6300A39940 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		742999FA2B860F3300C22B9C /* LearnQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 				74C49E1D2BC52C7700868BB1 /* ProfileViewController.swift */,
 				740648332BC67B6300A39940 /* GoogleService-Info.plist */,
 				74299A032B860F3300C22B9C /* Main.storyboard */,
-				444F69892BC9020A00DD2CFB /* GameZoneVC.swift */,
 				74299A062B860F3400C22B9C /* Assets.xcassets */,
 				74299A082B860F3400C22B9C /* LaunchScreen.storyboard */,
 				74299A0B2B860F3400C22B9C /* Info.plist */,
@@ -197,7 +194,6 @@
 				742999FE2B860F3300C22B9C /* AppDelegate.swift in Sources */,
 				74FE39422BC1634700D479E5 /* AuthenticationModel.swift in Sources */,
 				7402ADB92BC7CBCC0005829E /* LevelCVC.swift in Sources */,
-				444F698A2BC9020A00DD2CFB /* GameZoneVC.swift in Sources */,
 				7455D6172B875215008560A9 /* SplashViewController.swift in Sources */,
 				74299A002B860F3300C22B9C /* SceneDelegate.swift in Sources */,
 			);
